@@ -1,9 +1,9 @@
 from math import *
 
 
-def task4(col_widht, length_between_holes, length_end, count_of_rows):
+def task4(col_width, length_between_holes, length_end, count_of_rows):
     a1 = length_between_holes + (length_between_holes * (count_of_rows - 1)) * 2
-    a2 = a1 + (col_widht * (count_of_rows - 1)) * 2
+    a2 = a1 + (col_width * (count_of_rows - 1)) * 2
     return a2 + length_end * 2
 
 def task5(*args):
