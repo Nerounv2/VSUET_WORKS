@@ -103,14 +103,14 @@ for i in range(0, n):
     D.append(float(input(f"Число №{i+1}: ")))
     
 
-sum = 0
+s = 0
 
 for i in range(0, len(D)):
     if i % 2 != 0:
-        sum += D[i]
+        s += D[i]
 
 print(f"Исходный массив:\n {D}")
-print(f"Сумма элементов с нечетным индексом: {sum}")
+print(f"Сумма элементов с нечетным индексом: {s}")
 
 l2 = []
 n = 8
@@ -235,13 +235,13 @@ for i in range(0, n):
 
 print(f"Исходный массив:\n {l2}")
 
-sum = 0
+s = 0
 
 for i in l2:
     if i > 5:
-        sum += i
+        s += i
 
-print(f"Сумма чисел >5: {sum}")
+print(f"Сумма чисел >5: {s}")
 
 # 7
 print('''

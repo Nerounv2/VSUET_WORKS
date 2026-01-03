@@ -1,4 +1,4 @@
-from math import *
+from math import * # type: ignore
 
 # Программы написаны сразу с данными для проверки
 
